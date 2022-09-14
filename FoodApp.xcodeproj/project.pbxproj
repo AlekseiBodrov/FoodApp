@@ -9,19 +9,39 @@
 /* Begin PBXBuildFile section */
 		20211EAF28D2137700E3AECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211EAE28D2137700E3AECA /* AppDelegate.swift */; };
 		20211EB128D2137700E3AECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211EB028D2137700E3AECA /* SceneDelegate.swift */; };
-		20211EB328D2137700E3AECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211EB228D2137700E3AECA /* ViewController.swift */; };
 		20211EB828D2137A00E3AECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20211EB728D2137A00E3AECA /* Assets.xcassets */; };
 		20211EBB28D2137A00E3AECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20211EB928D2137A00E3AECA /* LaunchScreen.storyboard */; };
+		20211EC928D2164100E3AECA /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211EC828D2164100E3AECA /* BaseController.swift */; };
+		20211ECB28D2168500E3AECA /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211ECA28D2168500E3AECA /* Resources.swift */; };
+		20211ECD28D216BD00E3AECA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211ECC28D216BD00E3AECA /* TabBarController.swift */; };
+		20211ED028D2176000E3AECA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211ECF28D2176000E3AECA /* HomeController.swift */; };
+		20211ED328D2193B00E3AECA /* FavoriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211ED228D2193B00E3AECA /* FavoriteController.swift */; };
+		20211ED628D219BD00E3AECA /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211ED528D219BD00E3AECA /* PersonController.swift */; };
+		20211ED928D21B2D00E3AECA /* OrdersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211ED828D21B2D00E3AECA /* OrdersController.swift */; };
+		20211EDB28D21C2900E3AECA /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211EDA28D21C2900E3AECA /* NavBarController.swift */; };
+		20211EDD28D21C8C00E3AECA /* UICollor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211EDC28D21C8C00E3AECA /* UICollor+ext.swift */; };
+		20211EDF28D21CA900E3AECA /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211EDE28D21CA800E3AECA /* UIView+ext.swift */; };
+		20211EE128D2213600E3AECA /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20211EE028D2213500E3AECA /* SettingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20211EAB28D2137700E3AECA /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20211EAE28D2137700E3AECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20211EB028D2137700E3AECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20211EB228D2137700E3AECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20211EB728D2137A00E3AECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20211EBA28D2137A00E3AECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20211EBC28D2137A00E3AECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20211EC828D2164100E3AECA /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		20211ECA28D2168500E3AECA /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		20211ECC28D216BD00E3AECA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		20211ECF28D2176000E3AECA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		20211ED228D2193B00E3AECA /* FavoriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteController.swift; sourceTree = "<group>"; };
+		20211ED528D219BD00E3AECA /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		20211ED828D21B2D00E3AECA /* OrdersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersController.swift; sourceTree = "<group>"; };
+		20211EDA28D21C2900E3AECA /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		20211EDC28D21C8C00E3AECA /* UICollor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollor+ext.swift"; sourceTree = "<group>"; };
+		20211EDE28D21CA800E3AECA /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		20211EE028D2213500E3AECA /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,105 @@
 		20211EAD28D2137700E3AECA /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
-				20211EAE28D2137700E3AECA /* AppDelegate.swift */,
-				20211EB028D2137700E3AECA /* SceneDelegate.swift */,
-				20211EB228D2137700E3AECA /* ViewController.swift */,
+				20211EC528D215ED00E3AECA /* Helpers */,
+				20211EC428D215D800E3AECA /* Controllers */,
+				20211EC328D2158400E3AECA /* Application */,
+				20211EC228D2151600E3AECA /* SupportingFiles */,
+			);
+			path = FoodApp;
+			sourceTree = "<group>";
+		};
+		20211EC228D2151600E3AECA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				20211EB728D2137A00E3AECA /* Assets.xcassets */,
 				20211EB928D2137A00E3AECA /* LaunchScreen.storyboard */,
 				20211EBC28D2137A00E3AECA /* Info.plist */,
 			);
-			path = FoodApp;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		20211EC328D2158400E3AECA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				20211EAE28D2137700E3AECA /* AppDelegate.swift */,
+				20211EB028D2137700E3AECA /* SceneDelegate.swift */,
+			);
+			name = Application;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		20211EC428D215D800E3AECA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20211ED728D21B0500E3AECA /* Orders */,
+				20211ED428D2199F00E3AECA /* Person */,
+				20211ED128D2191000E3AECA /* Favorite */,
+				20211ECE28D2173300E3AECA /* Home */,
+				20211EC728D2160500E3AECA /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		20211EC528D215ED00E3AECA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				20211EC628D215F700E3AECA /* Extantion */,
+				20211ECA28D2168500E3AECA /* Resources.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		20211EC628D215F700E3AECA /* Extantion */ = {
+			isa = PBXGroup;
+			children = (
+				20211EDC28D21C8C00E3AECA /* UICollor+ext.swift */,
+				20211EDE28D21CA800E3AECA /* UIView+ext.swift */,
+			);
+			path = Extantion;
+			sourceTree = "<group>";
+		};
+		20211EC728D2160500E3AECA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				20211EC828D2164100E3AECA /* BaseController.swift */,
+				20211ECC28D216BD00E3AECA /* TabBarController.swift */,
+				20211EDA28D21C2900E3AECA /* NavBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		20211ECE28D2173300E3AECA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20211ECF28D2176000E3AECA /* HomeController.swift */,
+				20211EE028D2213500E3AECA /* SettingController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		20211ED128D2191000E3AECA /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				20211ED228D2193B00E3AECA /* FavoriteController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		20211ED428D2199F00E3AECA /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				20211ED528D219BD00E3AECA /* PersonController.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		20211ED728D21B0500E3AECA /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				20211ED828D21B2D00E3AECA /* OrdersController.swift */,
+			);
+			path = Orders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +245,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20211EB328D2137700E3AECA /* ViewController.swift in Sources */,
+				20211ED928D21B2D00E3AECA /* OrdersController.swift in Sources */,
+				20211ED628D219BD00E3AECA /* PersonController.swift in Sources */,
+				20211EDB28D21C2900E3AECA /* NavBarController.swift in Sources */,
 				20211EAF28D2137700E3AECA /* AppDelegate.swift in Sources */,
+				20211ED028D2176000E3AECA /* HomeController.swift in Sources */,
+				20211EDD28D21C8C00E3AECA /* UICollor+ext.swift in Sources */,
+				20211EC928D2164100E3AECA /* BaseController.swift in Sources */,
+				20211EDF28D21CA900E3AECA /* UIView+ext.swift in Sources */,
+				20211ECD28D216BD00E3AECA /* TabBarController.swift in Sources */,
+				20211ECB28D2168500E3AECA /* Resources.swift in Sources */,
 				20211EB128D2137700E3AECA /* SceneDelegate.swift in Sources */,
+				20211EE128D2213600E3AECA /* SettingController.swift in Sources */,
+				20211ED328D2193B00E3AECA /* FavoriteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +398,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6CQH2T6SR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodApp/Info.plist;
+				INFOPLIST_FILE = FoodApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -304,7 +425,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6CQH2T6SR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodApp/Info.plist;
+				INFOPLIST_FILE = FoodApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
